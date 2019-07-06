@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator zdrenjA</h1>
+    <div class="main">
+        <div class="view" id="viewer">
+            0
+        </div>
+        <div class="calc-button-row" id="first-row">
+            <div class="button c" id="C">C</div>
+            <div class="button c" data-ops="+">+</div>
+        </div>
+        <div class="calc-button-row">
+            <div class="num" data-num="7">7</div>
+            <div class="num" data-num="8">8</div>
+            <div class="num" data-num="9">9</div>
+            <div class="button" data-ops="-">-</div>
+        </div>
+        <div class="calc-button-row">
+            <div class="num" data-num="4">4</div>
+            <div class="num" data-num="5">5</div>
+            <div class="num" data-num="6">6</div>
+            <div class="button" data-ops="*">x</div>
+        </div>
+        <div class="calc-button-row">
+            <div class="num" data-num="1">1</div>
+            <div class="num" data-num="2">2</div>
+            <div class="num" data-num="3">3</div>
+            <div class="button" data-ops="/">/</div>
+        </div>
+        <div class="calc-button-row">
+            <div class="num" id="zero" data-num="0">0</div>
+            <div class="button c" id="equals">=</div>
+        </div>
+    </div>
+    <div id="span">
+        <span><b>Only one operation per time! This is a simple calculator!</b></span>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
